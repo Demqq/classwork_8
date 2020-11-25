@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0 180px 0;
+}
+
+.header__top-list {
+  display: flex;
+}
+
+.header__top-item {
+  margin-right: 40px;
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+  opacity: 0.5;
+}
+
+.header__top-item:last-child {
+  margin-right: 0;
+}
+
+.header__top-item:hover {
+  color: #1F1534;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.header__bottom {
+  position: relative;
+  width: 445px;
+}
+
+.header__bottom-title {
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.header__bottom-text {
+  margin-bottom: 45px;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+}
+
+.header__bottom-btn {
+  outline: none;
+  border: none;
+  background: #458FF6;
+  border-radius: 55px;
+  width: 200px;
+  height: 56px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
